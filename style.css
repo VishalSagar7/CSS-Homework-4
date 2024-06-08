@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html,body{
+    width: 100%;
+    background-color: bisque;
+}
+nav{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+    background: url('assets/poster.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 10px black;
+    display: flex;
+    justify-content: center;
+
+}
+nav input{
+    position: sticky;
+    top: 60px;
+    width: 70%;
+    height: 60px;
+    /* margin-top: 60px; */
+    background-color: rgb(116, 31, 31);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.div2{
+    height: 250px;
+    width: 100%;
+    background-color: transparent;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 60px;
+}
+.div2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px black;
+}
+.div2 img:hover{
+    transform: scale(1.1);
+}
+.div2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div2 div h4{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.div3{
+    color: brown;
+    padding: 30px;
+    height: 380px;
+    width: 90%;
+    background-color: rgb(215,161,161);
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px brown; 
+}
+.div3 p{
+    margin-block: 15px;
+}
+#lastdiv{
+    margin-top: 50px;
+}
+.div3 ol li{
+    margin-block: 10px;
+}
